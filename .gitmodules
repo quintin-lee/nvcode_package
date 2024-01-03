@@ -1,0 +1,3 @@
+[submodule "config/nvcode"]
+	path = config/nvcode
+	url = git@github.com:quintin-lee/NVCode.git

@@ -6,8 +6,7 @@ Building an offline installation package project based on [quintin-lee/NVCode][1
 
 ## 2. Depedecies
 
-+ neovim > 0.9
-+ patched font (see nerd fonts)
++ patched font (see [nerd fonts][2])
 + translate-shell
 + lazygit
 + clangd
@@ -37,6 +36,13 @@ Building an offline installation package project based on [quintin-lee/NVCode][1
 
 ## 4. Use
 
+1. Set the bin path under the installation path to the PATH environment variable
+
+`export PATH=$install_dir/bin`
+
+2. start command
+
 `nvcode`
 
 [1]: https://github.com/quintin-lee/NVCode
+[2]: https://github.com/ryanoasis/nerd-fonts
